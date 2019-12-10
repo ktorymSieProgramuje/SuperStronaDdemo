@@ -1,0 +1,192 @@
+
+
+
+.navbar {
+    display: none;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid > .navbar-header
+
+@media (min-width: 768px) {
+
+    .container-fluid > .navbar-header
+}
+
+@media (min-width: 768px) {
+    .navbar-header {
+        float: left;
+    }
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-brand:hover
+
+.navbar-brand:focus {
+    text-decoration: none;
+}
+
+.navbar-brand > img {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: -15px;
+    }
+}
+
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+.navbar-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Lato Light";
+}
+
+@media (min-width: 768px) {
+    .navbar-text {
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px;
+        font-family: "Lato Light";
+    }
+}
+
+.navbar-default .navbar-text {
+    color: #777;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: -15px;
+}
+
+@media (min-width: 768px) {
+    .navbar-left {
+        float: left !important;
+    }
+    .navbar-right {
+        float: right !important;
+        margin-right: -15px;
+    }
+    .navbar-right ~ .navbar-right {
+        margin-right: 0;
+    }
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    color: azure;
+}
+
+.col-lg-offset-2 {
+    margin-left: 16.66666667%;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: azure;
+}
+
+.btn-danger {
+    color: azure;
+    background-color: #d9534f;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.panel-footer {
+    color: azure;
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-family: "Lato Light";
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Lato Light";
+    color: azure;
+    background-color: #333333;
+
+}
+
+table{
+    font-family: "Lato Light";
+    color: azure;
+    position: center;
+}
+
+html, body {
+    width: 100%;
+}
+
+
+.refreshbtn{
+    border-radius: 5px;
+    color: black;
+    background-color: fuchsia;
+    position: center;
+    border: 0px;
+}
+
+.backk{
+    background-color: #5e5e5e;
+    color: azure;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #555555;
+}
+
+.footer{
+    background-color: #333333;
+}
+
+tr:hover {background-color: #555555;}
+
+.btn-danger:hover{background-color: #AD423F; }
+
+.refreshbtn:hover{background-color: #B200B2;}
+
+.ccc{
+    background-color: #555555;
+}

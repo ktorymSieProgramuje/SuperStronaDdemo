@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>User App</title>
+    <link rel="stylesheet" href="../static/SuperStyle.css" th:href="@{/SuperStyle.css}" />
+
+    <script type="text/javascript" src="/static/angular.min.js" th:src="@{/angular.min.js}"></script>
+    <script type="text/javascript" src="/static/app/app.module.js" th:src="@{/app/app.module.js}"></script>
+    <script type="text/javascript" src="/static/app/users.controller.js" th:src="@{/app/users.controller.js}"></script>
+</head>
+<body ng-app="app" ng-controller="UserController as vm">
+
+<div class="backk">
+    <div class="row">
+        <div class="col-lg-offset-2 col-lg-8">
+
+            <div class="btn-group" role="group">
+                <button ng-click="vm.getAll()" type="button" class="refreshbtn">Refresh</button>
+            </div>
+
+
+            <table class="table">
+                <thead>
+                <tr class="ccc">
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Login</th>
+                    <th>Date of birth</th>
+                    <th style="width: 90px"></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="user in vm.users">
+                    <td>{{user.id}}</td>
+                    <td>{{user.name}}</td>
+                    <td>{{user.surname}}</td>
+                    <td>{{user.login}}</td>
+                    <td>{{user.dateOfBirth}}</td>
+                    <td>
+                        <button class="btn btn-danger" ng-click="vm.deleteUser(user.id)">Delete</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+
+<footer class="footer" style="position: absolute; bottom:0; width: 100%">
+    <div class="container">
+        <p th:text="${#dates.format(datetime, 'dd MMM yyyy HH:mm')}"  class="text-muted">Page was rendered today.</p>
+    </div>
+</footer>
+</body>
+</html>
